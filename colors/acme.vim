@@ -3,7 +3,7 @@ highlight clear
 " for cterm, 'black' might get overwritten by the terminal emulator, so we use
 " 232 (#080808), which is close enough.
 
-highlight! Normal guibg=#ffffea guifg=#000000 ctermbg=230 ctermfg=232 
+highlight! Normal guibg=#fbffea guifg=#000000 ctermbg=230 ctermfg=232 
 highlight! NonText guibg=bg guifg=#ffffea ctermbg=bg ctermfg=230
 highlight! StatusLine guibg=#aeeeee guifg=#000000 gui=NONE ctermbg=159 ctermfg=232 cterm=NONE
 highlight! StatusLineNC guibg=#eaffff guifg=#000000 gui=NONE ctermbg=194 ctermfg=232 cterm=NONE
@@ -13,7 +13,7 @@ highlight! Folded guibg=#cccc7c guifg=fg gui=italic ctermbg=187 ctermfg=fg cterm
 highlight! FoldColumn guibg=#fcfcce guifg=fg ctermbg=229 ctermfg=fg
 highlight! Conceal guibg=bg guifg=fg gui=NONE ctermbg=bg ctermfg=fg cterm=NONE
 highlight! LineNr guibg=bg guifg=#505050 gui=italic ctermbg=bg ctermfg=239 cterm=italic
-highlight! Visual guibg=fg guifg=bg ctermbg=fg ctermfg=bg
+highlight! Visual guibg=#dddfff guifg=#000000 ctermbg=fg ctermfg=bg
 highlight! CursorLine guibg=#ffffca guifg=fg ctermbg=230 ctermfg=fg
 
 highlight! Statement guibg=bg guifg=fg gui=italic ctermbg=bg ctermfg=fg cterm=italic
